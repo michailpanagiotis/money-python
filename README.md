@@ -7,3 +7,10 @@ money-python is a module for money and currencies. The main difference from othe
   - you want to store amounts and perform aggregations on them without the risk introduced by floating point precision
 
 
+### Testing
+
+To test, use pytest:
+```
+pip install -U pytest
+PYTHONPATH=./ py.test
+```
